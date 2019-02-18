@@ -1,1 +1,3 @@
-# womanleadershipnetwork
+# Women Leadership Network
+
+Initial setup
