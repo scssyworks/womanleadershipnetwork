@@ -1,0 +1,13 @@
+@import '../../../main/imports';
+header {
+    @include padding(20px 0);
+    @include box-shadow-normal;
+    background-color: $bg-header;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    @media #{$tablet} {
+        @include padding(40px 0);
+    }
+}
