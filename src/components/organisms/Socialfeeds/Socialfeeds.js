@@ -31,7 +31,6 @@ class Socialfeed extends Component {
   renderFeeds() {
     let { socialfeeds } = this.props;
     return socialfeeds.map((val, idx) => {
-      console.log(val);
       let video_description = val.snippet.description;
       let videoURL = `https://www.youtube.com/embed/${val.id.videoId}`;
       let fb_share_link = `https://www.facebook.com/sharer/sharer.php?u=${videoURL}`;
