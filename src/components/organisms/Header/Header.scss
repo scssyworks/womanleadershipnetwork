@@ -19,3 +19,13 @@ header {
         @include height(80px);
     }
 }
+
+.wwn-brand-logo {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    &-img {
+        height: 100%;
+    }
+}

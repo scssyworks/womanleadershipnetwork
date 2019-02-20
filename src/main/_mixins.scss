@@ -67,6 +67,10 @@
     max-height: convert-to-rem($args);
 }
 
+@mixin rem-line-height($args) {
+    line-height: convert-to-rem($args);
+}
+
 @mixin line-height($line-height, $font-size) {
     line-height: calculate-line-height($line-height, $font-size);
 }

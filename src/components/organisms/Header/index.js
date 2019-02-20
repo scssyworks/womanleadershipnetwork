@@ -25,6 +25,9 @@ const Header = () => (
             <Logo href="https://www.publicissapient.com" />
             <MenuButton />
             <MainMenu list={menuLinks} type="links" />
+            <div className="wwn-brand-logo">
+                <img src="https://via.placeholder.com/150x80" className="wwn-brand-logo-img" alt="Wonderwomen Network" />
+            </div>
         </div>
     </header>
 );
