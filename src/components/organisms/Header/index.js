@@ -1,8 +1,9 @@
 import React from 'react';
 import './Header.scss';
 import Logo from '../../atoms/Logo';
-import MenuButton from '../../atoms/MenuButton';
-import MainMenu from '../MainMenu';
+import VisibleMenu from '../../hoc/VisibleMenu';
+import VisibleMenuButton from '../../hoc/VisibleMenuButton';
+import BrandLogo from '../../atoms/BrandLogo';
 
 const menuLinks = [
     {
@@ -23,11 +24,9 @@ const Header = () => (
     <header>
         <div className="wwn-header-content">
             <Logo href="https://www.publicissapient.com" />
-            <MenuButton />
-            <MainMenu list={menuLinks} type="links" />
-            <div className="wwn-brand-logo">
-                <img src="https://via.placeholder.com/150x80" className="wwn-brand-logo-img" alt="Wonderwomen Network" />
-            </div>
+            <VisibleMenuButton />
+            <VisibleMenu list={menuLinks} type="links" />
+            <BrandLogo className="wwn-brand-logo d-none d-md-block" />
         </div>
     </header>
 );

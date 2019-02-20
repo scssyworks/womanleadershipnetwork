@@ -171,3 +171,7 @@
 @mixin box-shadow-normal {
     box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2);
 }
+
+@mixin box-shadow-dark {
+    box-shadow: 2px 0 8px 0 rgba(0, 0, 0, 0.6);
+}

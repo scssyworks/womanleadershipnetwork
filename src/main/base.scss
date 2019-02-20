@@ -84,38 +84,45 @@ ul {
 }
 
 nav {
+    text-align: left;
     @media #{$tablet} {
         @include rem-line-height(80px);
         @include padding(0 170px 0 120px);
         width: 100%;
         text-align: right;
         vertical-align: middle;
-        li {
-            &::after {
-                @include padding(0 5px);
-                content: "|";
-            }
+    }
+    li {
+        display: block;
+        @media #{$tablet} {
             &,
             &::after {
                 display: inline-block;
                 line-height: normal;
             }
-        }
-        li:last-child {
             &::after {
-                display: none;
+                @include padding(0 5px);
+                content: "|";
+            }
+            &:last-child {
+                &::after {
+                    display: none;
+                }
             }
         }
-        a {
+    }
+    a {
+        @include padding(20px);
+        text-transform: uppercase;
+        &:hover {
+            text-decoration: none;
+        }
+        @media #{$tablet} {
             @include padding(0 10px);
-            text-transform: uppercase;
-            &:hover {
-                text-decoration: none;
-            }
         }
-        li:after,
-        a {
-            @include font-size(16px);
-        }
+    }
+    li:after,
+    a {
+        @include font-size(16px);
     }
 }

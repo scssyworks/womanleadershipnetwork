@@ -14,18 +14,8 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 1;
+    z-index: 2;
     @media #{$tablet} {
         @include height(80px);
-    }
-}
-
-.wwn-brand-logo {
-    position: absolute;
-    top: 0;
-    right: 0;
-    height: 100%;
-    &-img {
-        height: 100%;
     }
 }
