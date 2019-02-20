@@ -61,7 +61,7 @@ class Socialfeed extends Component {
               </div>
             </div>
             <div className="fts-youtube-reply-wrap-left">
-              <a href="https://www.youtube.com/watch?v=cqIQ-LS-DmM" target="_blank">View on YouTube</a>
+              <a href={videoURL} target="_blank">View on YouTube</a>
             </div>
             <div className="fts-clear" /></div>
         </div>

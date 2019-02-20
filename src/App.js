@@ -4,8 +4,6 @@ import { BrowserRouter as Router, Route, NavLink } from "react-router-dom";
 import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
 
-import './App.css';
-
 import './App.scss';
 
 import Home from './pages/Home'
