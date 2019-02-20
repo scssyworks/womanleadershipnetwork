@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, NavLink } from "react-router-dom";
-import Home from '../../templates/Pages/Home';
+import Home from '../Pages/Home';
 
 const Content = () => (
     <div className="wwn-content">

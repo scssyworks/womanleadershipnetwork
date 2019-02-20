@@ -1,6 +1,6 @@
 import React from 'react';
 import './Body.scss';
-import Content from '../Content/Content';
+import Content from '../Content';
 
 const Body = () => (
     <div className="wwn-body">
