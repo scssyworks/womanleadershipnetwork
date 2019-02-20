@@ -14,6 +14,20 @@ class Socialfeed extends Component {
     let { actions } = this.props;
     actions.loadSocialFeeds();
   }
+  getTimeDifference(publishDate) {
+    let diffStr = '';
+    let date1 = new Date(publishDate);
+    let date2 = new Date();
+    let timeDiff = Math.abs(date2.getTime() - date1.getTime());
+    let diffMinutes = Math.ceil(timeDiff / (1000 * 60));
+    if (diffMinutes <= 1) {
+      diffStr = `just now`
+    } else if (diffMinutes > 1 && diffMinutes < 60) {
+      diffStr = `${diffMinutes} minutes ago`
+    } else if (diffMinutes > 1 && diffMinutes < 60) {
+
+    }
+  }
   renderFeeds() {
     let { socialfeeds } = this.props;
     return socialfeeds.map((val, idx) => {
