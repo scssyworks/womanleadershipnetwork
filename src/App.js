@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './main/base.scss';
 import Header from './components/organisms/Header/Header';
-import Body from './components/organisms/Body/Body';
+import Body from './components/templates/Body/Body';
 import Footer from './components/organisms/Footer/Footer';
 
 import Home from './pages/Home'

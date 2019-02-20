@@ -1,11 +1,10 @@
 import React from 'react';
 import './Body.scss';
+import Content from '../Content/Content';
 
 const Body = () => (
     <div className="wwn-body">
-        <div className="wwn-container">
-            This is body
-        </div>
+        <Content />
     </div>
 );
 
