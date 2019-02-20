@@ -1,9 +1,10 @@
 import React from 'react';
+import Hero from '../../organisms/Hero/Hero';
 
 const Content = () => (
     <div className="wwn-content">
         <div className="wwn-container">
-            This is body
+            <Hero />
         </div>
     </div>
 );

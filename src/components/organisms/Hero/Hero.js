@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import HeroImage from '../static/images/hero.jpg';
+import HeroImage from '../../../static/images/hero.jpg';
 export default class Hero extends Component {
   constructor(props) {
     super(props);

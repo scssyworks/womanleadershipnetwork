@@ -7,8 +7,6 @@ import Header from './components/organisms/Header/Header';
 import Body from './components/templates/Body/Body';
 import Footer from './components/organisms/Footer/Footer';
 
-import Home from './pages/Home'
-
 class App extends Component {
   render() {
     return (
