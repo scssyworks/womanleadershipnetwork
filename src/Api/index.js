@@ -9,20 +9,28 @@ let ytAPIUrl = `${ytAPI}?key=${API_KEY}&user=${USER_ID}&part=snippet,id&order=da
 
 
 
+
 const Api = {
   loadPromotionalVideos(size) {
     let ytAPIFullUrl;
-    if (size) {
-      ytAPIFullUrl = ytAPIUrl + size;
+    if (window.location.hostname === 'localhost') {
+      ytAPIFullUrl = '/data/youtube.json'
     } else {
-      ytAPIFullUrl = ytAPIUrl + LIMIT;
+      if (size) {
+        ytAPIFullUrl = ytAPIUrl + size;
+      } else {
+        ytAPIFullUrl = ytAPIUrl + LIMIT;
+      }
     }
     return axios.get(ytAPIFullUrl);
   },
   loadSocialFeeds() {
     let ytAPIFullUrl;
-    ytAPIFullUrl = ytAPIUrl + 6;
-    // debugger;
+    if (window.location.hostname === 'localhost') {
+      ytAPIFullUrl = '/data/youtube.json'
+    } else {
+      ytAPIFullUrl = ytAPIUrl + 6;
+    }
     return axios.get(ytAPIFullUrl);
   }
 }

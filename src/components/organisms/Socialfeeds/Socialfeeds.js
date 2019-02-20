@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
-import { loadSocialFeeds } from '../actions/socialfeed';
+import { loadSocialFeeds } from '../../../actions/socialfeed';
 import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux';
 import 'bootstrap/dist/css/bootstrap.css';
-import '../static/styles/masonry.css';
+import '../../../static/styles/masonry.css';
 
 
 class Socialfeed extends Component {

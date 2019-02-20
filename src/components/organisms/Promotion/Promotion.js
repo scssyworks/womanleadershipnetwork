@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { loadPromotionalVideos } from '../actions/promotion';
+import { loadPromotionalVideos } from '../../../actions/promotion';
 import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux';
 import 'bootstrap/dist/css/bootstrap.css'

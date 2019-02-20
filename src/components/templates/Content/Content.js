@@ -1,11 +1,14 @@
 import React from 'react';
-import Hero from '../../organisms/Hero/Hero';
+import { BrowserRouter as Router, Route, NavLink } from "react-router-dom";
+import Home from '../../templates/Pages/Home';
 
 const Content = () => (
     <div className="wwn-content">
-        <div className="wwn-container">
-            <Hero />
-        </div>
+        <Router>
+            <div className="wwn-container">
+                <Route exact path="/" component={Home} />
+            </div>
+        </Router>
     </div>
 );
 

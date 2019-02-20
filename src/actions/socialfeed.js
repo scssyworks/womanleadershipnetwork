@@ -11,7 +11,7 @@ export function loadSocialFeeds() {
       .then(socialfeeds => {
 
         // log
-        let feeds = socialfeeds.items;
+        let feeds = socialfeeds.items.slice(0, 6);;
         // // dispatch({ type: 'REQUEST_FINISH', message: '' })
         dispatch({ type: LOAD_SOCIAL_FEEDS, feeds }) // async action
       })

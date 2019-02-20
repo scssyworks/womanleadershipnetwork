@@ -10,7 +10,7 @@ export function loadPromotionalVideos(size) {
       .then(response => response.data)
       .then(videos => {
         // log
-        let yt_videos = videos.items;
+        let yt_videos = videos.items.slice(0, 2);
         // // dispatch({ type: 'REQUEST_FINISH', message: '' })
         dispatch({ type: LOAD_PROMOTIONAL_VIDEOS, yt_videos }) // async action
       })
