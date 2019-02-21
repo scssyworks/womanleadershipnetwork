@@ -1,0 +1,128 @@
+@import 'imports';
+// Text node resets
+$text-elements:('h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'p', 'b', 'i', 'div', 'span', 'section', 'article', 'aside', 'nav', 'header', 'footer', 'ul', 'li');
+%resetcss {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    outline: 0;
+}
+
+@each $element in $text-elements {
+    #{$element} {
+        @extend %resetcss;
+    }
+}
+
+a {
+    &,
+    &:hover,
+    &:visited,
+    &:focus {
+        display: inline-block;
+        color: inherit;
+        background-color: inherit;
+    }
+}
+
+button,
+input[type="button"],
+input[type="submit"] {
+    background-color: transparent;
+    @extend %resetcss;
+}
+
+html {
+    @include line-height(24px, $font-baseline);
+    font-size: $font-baseline;
+    @media #{$tablet} {
+        font-size: calculate-base-font($v-tablet);
+    }
+    @media #{$tablet-large} {
+        font-size: calculate-base-font($v-tablet-l);
+    }
+    @media #{$desktop} {
+        font-size: calculate-base-font($v-desktop);
+    }
+    @media #{$desktop-large} {
+        font-size: calculate-base-font($v-desktop-l);
+    }
+}
+
+body {
+    background-color: $bg-body;
+    height: 100vh;
+}
+
+.wwn-container {
+    @include padding-left(15px);
+    @include padding-right(15px);
+    max-width: 100%;
+    margin: 0 auto;
+    @media #{$tablet} {
+        @include max-width(1920px);
+    }
+}
+
+.wwn-container {
+    .row {
+        @include margin-left(-15px);
+        @include margin-right(-15px);
+    }
+    [class*="col-"] {
+        @include padding-left(15px);
+        @include padding-right(15px);
+    }
+}
+
+ul {
+    list-style-type: none;
+    &,
+    & li {
+        @extend %resetcss;
+    }
+}
+
+nav {
+    text-align: left;
+    @media #{$tablet} {
+        @include rem-line-height(80px);
+        @include padding(0 170px 0 120px);
+        width: 100%;
+        text-align: right;
+        vertical-align: middle;
+    }
+    li {
+        display: block;
+        @media #{$tablet} {
+            &,
+            &::after {
+                display: inline-block;
+                line-height: normal;
+            }
+            &::after {
+                @include padding(0 5px);
+                content: "|";
+            }
+            &:last-child {
+                &::after {
+                    display: none;
+                }
+            }
+        }
+    }
+    a {
+        @include padding(20px);
+        text-transform: uppercase;
+        &:hover {
+            text-decoration: none;
+        }
+        @media #{$tablet} {
+            @include padding(0 10px);
+        }
+    }
+    li:after,
+    a {
+        @include font-size(16px);
+    }
+}

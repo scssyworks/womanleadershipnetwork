@@ -1,0 +1,341 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "\"XpPGQXPnxQJhLgs6enD_n8JR4Qk/xBitvBCiOz5a9csgOgZdAG26htk\"",
+  "nextPageToken": "CAoQAA",
+  "regionCode": "IN",
+  "pageInfo": {
+    "totalResults": 72,
+    "resultsPerPage": 10
+  },
+  "items": [{
+      "kind": "youtube#searchResult",
+      "etag": "\"XpPGQXPnxQJhLgs6enD_n8JR4Qk/GAfBfeKz2CWvUCjx2bAwf5gzVq4\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "tSwFlnQr_d8"
+      },
+      "snippet": {
+        "publishedAt": "2018-12-19T12:57:20.000Z",
+        "channelId": "UCgNHhosk_BkBbEZPghGuGdg",
+        "title": "Publicis Groupe 2019 Wishes #AVeryMarcelHoliday",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/tSwFlnQr_d8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/tSwFlnQr_d8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/tSwFlnQr_d8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Publicis Groupe",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"XpPGQXPnxQJhLgs6enD_n8JR4Qk/UC60_C9G-aZZKWT1r5JKUm2_mFk\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "TK5mA7qTiFc"
+      },
+      "snippet": {
+        "publishedAt": "2018-05-25T10:42:31.000Z",
+        "channelId": "UCgNHhosk_BkBbEZPghGuGdg",
+        "title": "Meet Marcel",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/TK5mA7qTiFc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/TK5mA7qTiFc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/TK5mA7qTiFc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Publicis Groupe",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"XpPGQXPnxQJhLgs6enD_n8JR4Qk/3l9CxYZz01yaC24tGa-3WFKTLcA\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "p2-ytQHGnW4"
+      },
+      "snippet": {
+        "publishedAt": "2018-02-08T07:30:00.000Z",
+        "channelId": "UCgNHhosk_BkBbEZPghGuGdg",
+        "title": "Arthur Sadoun Presents Publicis Groupe's 2017 Annual Results to Euro Business Media",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/p2-ytQHGnW4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/p2-ytQHGnW4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/p2-ytQHGnW4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Publicis Groupe",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"XpPGQXPnxQJhLgs6enD_n8JR4Qk/ZhJLrbJhH-MTRGSQa3ilWS4kKjM\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "XS_l99qzvRk"
+      },
+      "snippet": {
+        "publishedAt": "2018-01-30T09:25:34.000Z",
+        "channelId": "UCgNHhosk_BkBbEZPghGuGdg",
+        "title": "Publicis Groupe & Microsoft Announce Partnership For Marcel AI Platform",
+        "description": "Publicis Groupe [Euronext Paris: FR0000130577, CAC 40] announced today its partnership with Microsoft Corp. (Nasdaq “MSFT” @microsoft) to develop and ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/XS_l99qzvRk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/XS_l99qzvRk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/XS_l99qzvRk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Publicis Groupe",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"XpPGQXPnxQJhLgs6enD_n8JR4Qk/Pow4so6W0qVT-J36JpwMq5FgSW4\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "VssQBi-cVOM"
+      },
+      "snippet": {
+        "publishedAt": "2018-01-29T16:30:15.000Z",
+        "channelId": "UCgNHhosk_BkBbEZPghGuGdg",
+        "title": "Arthur Sadoun & Satya Nadella Announce Partnership For Marcel AI Platform",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/VssQBi-cVOM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/VssQBi-cVOM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/VssQBi-cVOM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Publicis Groupe",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"XpPGQXPnxQJhLgs6enD_n8JR4Qk/qQecV2srT-7IEZx4qQWruTWWZfM\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Rm4yYSzci9g"
+      },
+      "snippet": {
+        "publishedAt": "2017-12-19T15:40:17.000Z",
+        "channelId": "UCgNHhosk_BkBbEZPghGuGdg",
+        "title": "Publicis Groupe 2018 Wishes",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Rm4yYSzci9g/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Rm4yYSzci9g/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Rm4yYSzci9g/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Publicis Groupe",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"XpPGQXPnxQJhLgs6enD_n8JR4Qk/wKN62BEnqH9vm2LyJM89B40zVXU\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Ur85ZNm-Ack"
+      },
+      "snippet": {
+        "publishedAt": "2017-12-19T15:40:47.000Z",
+        "channelId": "UCgNHhosk_BkBbEZPghGuGdg",
+        "title": "Vœux Publicis Groupe 2018",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Ur85ZNm-Ack/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Ur85ZNm-Ack/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Ur85ZNm-Ack/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Publicis Groupe",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"XpPGQXPnxQJhLgs6enD_n8JR4Qk/ZUYMLfXSX0BRDRfw8Ji0QvaQzJg\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "mAKhPfNrS6M"
+      },
+      "snippet": {
+        "publishedAt": "2017-12-19T15:40:30.000Z",
+        "channelId": "UCgNHhosk_BkBbEZPghGuGdg",
+        "title": "Publicis Groupe Buenos Deseos 2018",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/mAKhPfNrS6M/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/mAKhPfNrS6M/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/mAKhPfNrS6M/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Publicis Groupe",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"XpPGQXPnxQJhLgs6enD_n8JR4Qk/rk6s-c90nviZ6U7aSM69zub40xE\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "H3z-895Oeak"
+      },
+      "snippet": {
+        "publishedAt": "2017-10-19T06:00:00.000Z",
+        "channelId": "UCgNHhosk_BkBbEZPghGuGdg",
+        "title": "Arthur Sadoun with Euro Business Media: Publicis Groupe Third Quarter 2017 Results",
+        "description": "Arthur Sadoun, Chairman & CEO of Publicis Groupe, discusses Publicis Groupe's 3rd Quarter 2017 results with Euro Business Media.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/H3z-895Oeak/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/H3z-895Oeak/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/H3z-895Oeak/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Publicis Groupe",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"XpPGQXPnxQJhLgs6enD_n8JR4Qk/thYxtPmwjz7e0hfqSlNEcQfQgHE\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "7uqfxwhDlfs"
+      },
+      "snippet": {
+        "publishedAt": "2017-08-21T15:36:28.000Z",
+        "channelId": "UCgNHhosk_BkBbEZPghGuGdg",
+        "title": "Un message d'Arthur Sadoun concernant la création du poste de CTO",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/7uqfxwhDlfs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/7uqfxwhDlfs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/7uqfxwhDlfs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Publicis Groupe",
+        "liveBroadcastContent": "none"
+      }
+    }
+  ]
+}

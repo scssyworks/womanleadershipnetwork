@@ -1,0 +1,21 @@
+@import '../../../main/imports';
+header {
+    @include margin-bottom(60px);
+    @media #{$tablet} {
+        @include margin-bottom(80px);
+    }
+}
+
+.wwn-header-content {
+    @include height(60px);
+    @include box-shadow-normal;
+    background-color: $bg-header;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    @media #{$tablet} {
+        @include height(80px);
+    }
+}
